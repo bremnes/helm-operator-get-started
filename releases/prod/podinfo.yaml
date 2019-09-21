@@ -6,7 +6,7 @@ metadata:
   namespace: prod
   annotations:
     flux.weave.works/automated: "true"
-    flux.weave.works/tag.chart-image: semver:~3
+    flux.weave.works/tag.chart-image: semver:~3.0.4
 spec:
   releaseName: podinfo-prod
   chart:
