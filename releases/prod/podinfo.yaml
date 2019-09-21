@@ -11,7 +11,7 @@ spec:
   releaseName: podinfo-prod
   chart:
     git: git@github.com:stefanprodan/gitops-helm
-    path: charts/podinfo
+    path: charts/podinfo-v1
     ref: master
   values:
     image: stefanprodan/podinfo:3.0.5
