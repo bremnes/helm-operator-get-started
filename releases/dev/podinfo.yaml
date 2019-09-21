@@ -6,12 +6,12 @@ metadata:
   namespace: dev
   annotations:
     flux.weave.works/automated: "true"
-    flux.weave.works/tag.chart-image: glob:dev-*
+    flux.weave.works/tag.chart-image: semver:~3.0.4
 spec:
   releaseName: podinfo-dev
   chart:
     git: git@github.com:stefanprodan/gitops-helm
-    path: charts/podinfo
+    path: charts/podinfo-v1
     ref: master
   values:
     image: stefanprodan/podinfo:dev-hdtwcel9
